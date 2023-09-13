@@ -1,0 +1,15 @@
+/* line 1, /stdin */ * { padding: 0; margin: 0; color: unset; text-decoration: none; }
+
+/* line 7, /stdin */ html { font-family: Arial; }
+
+/* line 9, /stdin */ html body { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; }
+
+/* line 15, /stdin */ html body .container-btn { display: flex; width: 300px; height: 89px; padding: 4px; position: relative; border-radius: 25px; background: rgba(216, 216, 216, 0.486); }
+
+/* line 23, /stdin */ html body .container-btn .move-bg { position: absolute; width: calc(300px - 50%); height: 90px; background: white; border-radius: 22px; left: calc(300px - 141px); transition-duration: 0.2s; }
+
+/* line 35, /stdin */ .daftar, .masuk { width: calc(300px / 2); height: 100%; display: flex; justify-content: center; align-items: center; z-index: 1000; font-weight: 700; color: rgba(90, 90, 90, 0.486); transition-duration: 0.3s; text-transform: uppercase; }
+
+/* line 49, /stdin */ .l-0 { left: 3px !important; }
+
+/* line 52, /stdin */ .a-c { color: black !important; font-weight: 900 !important; }
